@@ -1,50 +1,26 @@
-# Welcome to your Expo app 👋
+# MusikLibre
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+MusikLibre is a `react-native` based mobile application which allows users to play music without any advertisements through different clients. Application uses a Python-based script to access musics and playlists while bypassing advertisements on the client.
 
-## Get started
+## Dependencies
 
-1. Install dependencies
+- expo (~54.x)
+- react
+- react-native
+- typescript
+- expo-status-bar
 
-   ```bash
-   npm install
-   ```
+## Setup
 
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+For setting up the repository on the device you want to work on, clone the repository and run the commands given bellow.
 
 ```bash
-npm run reset-project
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+After running these commands, access the application by the `expo-go` application you can find on Playstore or Appstore.
 
-## Learn more
+## Contributing
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Any developer can contribute to this project, before a contribution please ensure that issues and pull-requests are well documented and well tested.
